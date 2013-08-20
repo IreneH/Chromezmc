@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>IKH ZMC</title>
+
+<script type="text/javascript" src="zmc.js"></script>
+<link href="zmc.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+ <div class="xframe">
+  <div align="center" class="banner"></div>
+<div class="hist"></div><br />
+    <b id="ltHint" class="fbrow"></b>
+      <div class="cnfgr">
+        <div id="ltFreq">Frequency:</div>
+        <input type="number" name="tbTime" min="5" max="999" value="50" />
+      </div>
+      <div class="cnfgr">
+        <div><input type="button" name="bnStart" value="Start" /></div>
+        <input type="button" name="bnEmpty" value="Empty" />
+      </div>
+      <span id="ltAdvs" class="lnks">Advanced</span>
+      <div class="advblk">
+        <div>
+          <label>
+            <input type="checkbox" name="cbCafe" value="Y" checked />
+            <span id="ltCafe">Caf&eacute; World</span>
+          </label>
+        </div>
+        <div>&nbsp;&nbsp;
+          <label>
+            <input type="checkbox" name="cbAlt" value="Y" />
+            <span id="ltAlt">Alternate</span>
+          </label>
+        </div>
+         <div>
+          <label>
+            <input type="checkbox" name="cbEng" value="Y" checked />
+            <span id="ltLang">English</span>
+          </label>
+        </div>
+        <div class="cnfgr">
+          <div id="ltSize">Threshold:</div><br />
+          <input type="number" name="tbSize" value="-1" />
+        </div>
+        <div class="fulblk">
+      <i></i>
+      <div align="center" id="dvDiag" class="diag">
+        <input type="button" name="bnquit" class="qwin" value="&#xFF38;" />
+        <div id="dvMsg"></div>
+      </div>
+      <div id="dvMemo">
+        <textarea name="taMemo" cols="76" rows="24"></textarea>
+      </div>
+    </div>
+</body>
+</html>
