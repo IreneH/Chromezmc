@@ -1,0 +1,24 @@
+{
+  "name": "ZMC",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Automatically return requests for your ZMC",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "zmc-icon.png",
+    "default_title": "ZMC"
+  },
+  "icons":{
+     "48":"icon48.png",
+     "128":"icon128.png"
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "tabs",
+    "cookies"
+  ],
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}
